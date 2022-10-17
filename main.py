@@ -35,3 +35,7 @@ while key != "q":
   elif loadings=="quit":
     print("Killing FetchCord")
     quit()
+  elif loadings=="keep_alive":
+    print("Keeping alive!")
+    from keep_alive import keep_alive
+    keep_alive()
