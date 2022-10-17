@@ -1,0 +1,19 @@
+{
+  "name": "fetchdycord",
+  "version": "1.0.0",
+  "description": "FetchCord API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llamaair/FetchCordAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llamaair/FetchCordAPI/issues"
+  },
+  "homepage": "https://github.com/llamaair/FetchCordAPI#readme"
+}

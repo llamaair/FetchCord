@@ -39,3 +39,7 @@ while key != "q":
     print("Keeping alive!")
     from keep_alive import keep_alive
     keep_alive()
+  elif loadings=="import bot":
+    print("Loading bot")
+    from defines import bot
+    loadings=None
