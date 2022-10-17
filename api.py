@@ -4,6 +4,6 @@ def runapi():
 
 runapi()
 
-my_secret = os.environ['APIkey']
+key = os.environ['APIkey']
 
-print(f"Api is running as {my_secret}")
+print(f"Api is running as {key}")
