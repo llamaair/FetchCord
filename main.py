@@ -4,6 +4,10 @@ def loaddiscord():
 def loadpredicts():
   from predicts import PredictDigits
 
+def get_db_data():
+  with open("db.json", 'r') as f:
+    status = json.load(f)
+    return users
 
 print("FetchCord waking up...")
 print("Loading modules")
@@ -43,3 +47,4 @@ while key != "q":
     print("Loading bot")
     from defines import bot
     loadings=None
+    
