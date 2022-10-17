@@ -6,9 +6,9 @@ def loadpredicts():
   from predicts import PredictDigits
 
 def get_db_data():
-  with open("db.json", 'r') as f:
+  with open("databj.json", 'r') as f:
     status = json.load(f)
-    return db
+    return databj
 
 print("FetchCord waking up...")
 print("Loading modules")
@@ -50,7 +50,7 @@ while key != "q":
     loadings=None
   elif loadings=="read.db":
     get_db_data()
-    print(db)
+    print(databj)
   elif loadings=="import api":
     import api
   elif loadings=="import config":
