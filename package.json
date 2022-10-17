@@ -2,7 +2,7 @@
   "name": "fetchdycord",
   "version": "1.0.0",
   "description": "FetchCord API",
-  "main": "index.js",
+  "main": "main.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
