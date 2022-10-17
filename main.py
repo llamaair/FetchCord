@@ -1,3 +1,4 @@
+import json
 def loaddiscord():
   from discord import fetchdycord
 
@@ -7,7 +8,7 @@ def loadpredicts():
 def get_db_data():
   with open("db.json", 'r') as f:
     status = json.load(f)
-    return users
+    return db
 
 print("FetchCord waking up...")
 print("Loading modules")
@@ -47,4 +48,6 @@ while key != "q":
     print("Loading bot")
     from defines import bot
     loadings=None
-    
+  elif loadings=="read.db":
+    get_db_data()
+    print(db)
