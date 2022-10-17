@@ -1,5 +1,4 @@
 import json
-import plot
 def loaddiscord():
   from discord import fetchdycord
 
@@ -45,15 +44,11 @@ while key != "q":
     print("Keeping alive!")
     from keep_alive import keep_alive
     keep_alive()
-  elif loadings=="import bot":
-    print("Loading bot")
-    from defines import bot
-    loadings=None
   elif loadings=="read.db":
     get_db_data()
     print(databj)
   elif loadings=="import api":
-    import api
+    from discord import api
   elif loadings=="import config":
-    import config
+    from discord import config
     print("Config loaded!")

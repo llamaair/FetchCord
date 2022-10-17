@@ -3,9 +3,8 @@
 #Status: Not Working
 
 import discord
-import api
-from api import key
-import init
+from discord import api
+from discord import init
 
 command = "@client.command()"
 
@@ -23,11 +22,10 @@ confholder = "conf.placeholder"
 
 commandname = confholder
 
-defhere = f"async def {commandname}(ctx)"
+defhere = f"async def {commandname}(ctx):"
 
 event = "@client.event"
 
 
 print(f"Config def: {defhere}")
-print(f"Api cog loaded, {key}")
 
