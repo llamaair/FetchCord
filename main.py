@@ -53,3 +53,6 @@ while key != "q":
     print(db)
   elif loadings=="import api":
     import api
+  elif loadings=="import config":
+    import config
+    print("Config loaded!")
