@@ -1,4 +1,5 @@
 import json
+import plot
 def loaddiscord():
   from discord import fetchdycord
 

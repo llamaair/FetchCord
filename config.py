@@ -11,6 +11,10 @@ command = "@client.command()"
 
 cooldown = "@commands.cooldown()"
 
+prefix = "?"
+
+defintents = f"intents = discord.Intents.all() client = commands.Bot(command_prefix ={prefix}, case_insensitive = True, intents = intents)"
+
 roleholder = "Admin"
 
 rolelock = f"@commands.has_role({roleholder})"
