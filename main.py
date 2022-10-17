@@ -51,3 +51,5 @@ while key != "q":
   elif loadings=="read.db":
     get_db_data()
     print(db)
+  elif loadings=="import api":
+    import api
