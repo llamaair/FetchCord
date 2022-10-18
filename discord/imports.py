@@ -7,5 +7,9 @@ import sys
 import discord
 import colorama
 from discord.ext import commands
+from discord import error_handler
+
+
 
 print("Imports loaded")
+print("Error handler loaded")
