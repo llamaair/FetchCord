@@ -1,6 +1,6 @@
 import json
 def loaddiscord():
-  from discord import fetchdycord
+  print("Placeholder")
 
 def loadpredicts():
   from predicts import PredictDigits
@@ -27,7 +27,7 @@ while key != "q":
   loadings=str(input())
   if loadings=="import imports":
     print("Loading imports")
-    import imports
+    from discord import imports
     loadings=None
   elif loadings=="import predicts":
     print("Loading predicts")
@@ -52,3 +52,6 @@ while key != "q":
   elif loadings=="import config":
     from discord import config
     print("Config loaded!")
+  elif loadings=="deploy":
+    print("Loading init")
+    from discord import init

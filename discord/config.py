@@ -10,6 +10,10 @@ command = "@client.command()"
 
 cooldown = "@commands.cooldown()"
 
+slashdesc = "Placeholder"
+
+slash=f"@client.command(description={slashdesc})"
+
 prefix = "?"
 
 defintents = f"intents = discord.Intents.all() client = commands.Bot(command_prefix ={prefix}, case_insensitive = True, intents = intents)"

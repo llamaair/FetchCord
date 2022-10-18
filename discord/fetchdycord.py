@@ -1,4 +1,0 @@
-import discord
-
-
-print("Loaded!")
