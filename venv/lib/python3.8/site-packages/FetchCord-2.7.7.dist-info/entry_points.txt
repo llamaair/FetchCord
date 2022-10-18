@@ -1,0 +1,3 @@
+[console_scripts]
+fetchcord = fetch_cord.__main__:main
+
