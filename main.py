@@ -55,3 +55,5 @@ while key != "q":
   elif loadings=="deploy":
     print("Loading init")
     from discord import init
+  else:
+    print("Command error. Reboot recommended.")
